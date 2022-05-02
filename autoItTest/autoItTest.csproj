@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>ExPlus</AssemblyName>
+    <RootNamespace>ExPlus</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoItX.Dotnet" Version="3.3.14.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0-preview.1.22076.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="AutoItX3.Assembly">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\AutoIt3\AutoItX\AutoItX3.Assembly.dll</HintPath>
+      <Private>true</Private>
+    </Reference>
+    <Reference Include="AutoItX3.PowerShell">
+      <HintPath>..\..\..\..\..\..\Program Files (x86)\AutoIt3\AutoItX\AutoItX3.PowerShell.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\ma quille\.nuget\packages\autoitx.dotnet\3.3.14.5\build\AutoItX3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\ma quille\.nuget\packages\autoitx.dotnet\3.3.14.5\build\AutoItX3_x64.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
