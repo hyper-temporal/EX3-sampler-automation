@@ -1,8 +1,10 @@
 # EX3-sampler-automation
 windows desktop application (C#) for adding functionalities to the EmulatorX 3 (EMU) software sampler (via gui automation)
 
-## functionalities
+I wrote this stuff the XP way so it really doesn't follow good practices too much :)
+feel free not to use it because it really is for my own purpose only !
 
+## functionalities
 - allow full Voice Processing data structure copy and paste operation
 - allow to convert a "link based preset" to a "voice and zone based preset"
 - as the application gives the programmer the ability to read and write the EX3 data structures, new functionalities cound be developped easily
